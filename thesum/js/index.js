@@ -9,4 +9,16 @@ $(document).ready(function(){
         $(path).attr('src', path.src.replace(/_active.gif/g, '.gif'));
   });
 
+  $('#open').click(function(){
+  	 $('.panel').slideDown("slow");
+  	 $('.open').hide();
+  	 $('.close').show();
+  });
+
+  $('#close').click(function(){
+  	 $('.panel').slideUp("slow");
+  	 $('.close').hide();
+  	 $('.open').show();
+  });
+
 });
