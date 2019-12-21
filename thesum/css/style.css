@@ -1,6 +1,11 @@
 body {
 	padding: 0;
 	margin: 0;
+	color: #666666;
+    font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.4;
+    background-color: #000;
 }
 
 #wrapper {
@@ -8,7 +13,7 @@ body {
 	background-color: #f9f9f9;
 }
 
-#container {
+.container {
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -47,4 +52,80 @@ body {
 	height: 8px;
     border-right: thin solid gray;
     margin: 23px 0;
+}
+
+#main {
+	margin-top: 50px;
+}
+
+.mainLeft {
+	width: 280px;
+	float: left;
+}
+
+.cusor {
+	padding-top: 15px;
+}
+
+.mainRight {
+	margin-left: 330px;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    color: #666666;
+    font-size: 11px;
+}
+
+#footerImg {
+	height: 92px;
+	background: url(../images/footer.gif) no-repeat center;
+}
+
+#tripe {
+	height: 20px;
+	background: black no-repeat;
+}
+
+#footer .container {
+    width: 100%;
+    background: #000 no-repeat;
+    padding-left: 450px;
+    height: 120px;
+}
+
+.copyRight {
+	padding-left: 140px;
+    float: left;
+    width: 260px;
+}
+
+.navigation {
+	float: left;
+	padding-left: 80px;
+}
+
+#footer a {
+	color: #3f3d3d;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+
+.social {
+	margin-left: 40px;
+	float: left;
+}
+
+.address {
+	width: 349px;
 }
